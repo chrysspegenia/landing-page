@@ -33,7 +33,7 @@ a {
    display:flex;
    flex-wrap:wrap;
    justify-content:center;
-   gap:50px;
+   gap:100px;
    margin:0;
    padding-bottom:50px;
 }
@@ -56,15 +56,16 @@ a {
 .subtext {
     font-size:18px;
     color:#E5E7EB;
-    flex:1;
+    flex:2;
 }
 
-.button1 {
+button {
     background-color:#3882F6;
+    color:#E5E7EB;
     font-size:17px;
     padding:5px 20px;
     border-radius: 10px;
-    border-style:none;
+    border:2px solid #F9FAF8;
 }
 
 .head-img {
@@ -124,6 +125,33 @@ a {
     font-style: none;
     font-weight: bolder;
     text-align:right;
-    margin-top:50px;
-    
+    margin-top:50px; 
+}
+
+.signupsection {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:200px;
+    flex-wrap:wrap;
+    background-color:#3882F6;
+    padding:50px 130px;
+    margin: 100px auto;
+    max-width:1000px;
+    border-radius:30px;
+}
+
+.signtext {
+    display:flex;
+    flex-direction:column;
+    color:#F9FAF8;
+}
+
+.mainsign {
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.subsign {
+    font-size:24px;
 }
